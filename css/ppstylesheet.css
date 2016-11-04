@@ -1,3 +1,7 @@
+html, body, wrapper, header, nav, footer {
+    margin: 0;
+    padding: 0;}
+
 body {
     font-family: 'Open Sans',sans-serif;
     line-height: 1.4em;
@@ -8,7 +12,6 @@ body {
 #wrapper {
     width: 960px;
     margin: 0px auto;
-    background-color: #ffffff;
     background: rgba(255,255,255,0.6);}
 
 header {
@@ -47,7 +50,6 @@ nav li a, .dropbtn {
 
 li a:hover, .dropdown:hover .dropbtn {
     color: #ff0000;
-    background-color: #ffffff;
     background: rgba(255,255,255,0.7);}
 
 li.dropdown {
@@ -56,7 +58,6 @@ li.dropdown {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #ffffff;
     background: rgba(255,255,255,0.5);}
 
 .dropdown-content a {
@@ -67,7 +68,6 @@ li.dropdown {
 
 .dropdown-content a:hover {
     color: #ff0000;
-    background-color: #ffffff;
     background: rgba(255,255,255,0.3);}
 
 .dropdown:hover .dropdown-content {
@@ -89,7 +89,6 @@ li.dropdown {
     padding: 0px 30px 20px 30px;}
 
 .quote {
-    float: none;
     width: 275px;
     font-size: 130%;
     font-style:italic;
@@ -99,7 +98,6 @@ li.dropdown {
     border-bottom: 1px solid #ff0000;}
 
 .quote1 {
-    float: none;
     width: 275px;
     font-size: 130%;
     font-style:italic;
@@ -153,8 +151,8 @@ aside section a {
     padding: 10px;}
 
 aside section a:hover {
-    color: #985d6a;
-    background-color: #efefef;}
+    color: #000000;
+    background: rgba(255,255,255 0.5);}
 
 aside a {
     color: #ff0000;
@@ -168,9 +166,6 @@ aside {
     width: 220px;
     float: right;
     padding: 0px 0px 25px 10px;}
-
-hgroup {
-    margin-top: 0px;}
 
 h2, h3 {
     text-transform: uppercase;
